@@ -27,7 +27,7 @@ services:
       DB_USER: ${DB_USER}
       DB_PASSWORD: ${DB_PASSWORD}
     ports:
-      - "0.0.0.0:8501:8501"
+      - "8501:8501"
 
 volumes:
   pgdata:
